@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de modelos
+models/*.pt
+
+# Archivos de configuración local
+*.env
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas temporales o de logs
+*.log
+
+# Para mantener carpetas vacías en Git
+!models/.gitkeep
